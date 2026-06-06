@@ -1,0 +1,36 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(219, 181, 30); */
+    line-height: 2rem;
+    /* border: 2px solid rgb(219, 181, 30); */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(12, 92, 8);
+    padding: 10px;
+    
+     
+}
+.clr{
+    color: rgb(38, 91, 91);
+}
+
+.mainHero{
+   background-color: rgb(173, 173, 35);
+   border: 7px solid rgb(82, 112, 97);
+   border-radius: 10px;
+   height: fit-content;
+   width:fit-content;
+   align-items: center; 
+   padding: 10px;
+}
+
+#hero{
+    background-color: burlywood;
+    border:10px solid burlywood;
+}
+
+#hero:hover{
+    transition: all .2s ease-in-out;
+    background-color: goldenrod;
+}

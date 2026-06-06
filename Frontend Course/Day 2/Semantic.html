@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 Registration - Tech Summit 2026</title>
+</head>
+<body>
+
+    <header>
+        <h1>Tech Summit 2026</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="about">
+            <h2>About Day 2: Next-Gen Dev</h2>
+            <p>Join us on <time datetime="2026-10-15">October 15, 2026</time> for an intensive day focused on AI integration, advanced web frameworks, and cloud-native architecture.</p>
+            
+            <figure>
+                <img src="workshop-hall.jpg" alt="A large auditorium filled with developers working on laptops during a technical keynote" width="600" height="400">
+                <figcaption>Our main keynote hall preparing for the Day 2 opening remarks.</figcaption>
+            </figure>
+        </section>
+
+        <section id="register">
+            <h2>Day 2 Registration Form</h2>
+            <form action="/submit-registration" method="POST">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <p>
+                        <label for="full-name">Full Name:</label>
+                        <input type="text" id="full-name" name="fullName" required>
+                    </p>
+                    <p>
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="track">Choose a Track:</label>
+                        <select id="track" name="track" required>
+                            <option value="">-- Please choose an option --</option>
+                            <option value="ai">AI &amp; Machine Learning</option>
+                            <option value="web">Advanced Web Development</option>
+                            <option value="cloud">Cloud Architecture</option>
+                        </select>
+                    </p>
+                    <p>
+                        <button type="submit">Complete Registration</button>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+
+        <aside id="faq">
+            <h2>Frequently Asked Questions</h2>
+            
+            <h3>What time does Day 2 start?</h3>
+            <p>Doors open at <time datetime="08:30">8:30 AM</time>, and the opening keynote begins promptly at <time datetime="09:00">9:00 AM</time>.</p>
+            
+            <h3>Do I need to bring my own laptop?</h3>
+            <p>Yes, all workshops on Day 2 are hands-on. Please bring a laptop with a modern web browser and your favorite code editor installed.</p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <h2>Contact &amp; Venue Information</h2>
+        <address>
+            <p>For inquiries, email: <a href="mailto:support@techsummit2026.edu">support@techsummit2026.edu</a></p>
+            <p>
+                <strong>Apex Institute of Technology</strong><br>
+                100 Innovation Way, Suite B<br>
+                Tech City, TC 94016
+            </p>
+        </address>
+        <p><small>&copy; 2026 Apex Institute of Technology. All rights reserved.</small></p>
+    </footer>
+
+</body>
+</html>

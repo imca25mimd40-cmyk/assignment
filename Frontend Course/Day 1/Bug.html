@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bug Report Form</title>
+</head>
+<body>
+
+<center>
+
+    <h1>Bug Report Form</h1>
+
+    <form>
+
+        <label>Reporter Name:</label>
+        <input type="text" name="name" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <br><br>
+
+        <label>Date of Report:</label>
+        <input type="date" name="date">
+        <br><br>
+
+        <label>Bug Severity:</label>
+        <select name="severity">
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+            <option>Critical</option>
+        </select>
+        <br><br>
+
+        <label>Operating System:</label><br>
+
+        <input type="radio" name="os" value="Windows"> Windows
+        <input type="radio" name="os" value="Mac"> Mac
+        <input type="radio" name="os" value="Linux"> Linux
+        <br><br>
+
+        <label>Steps to Reproduce:</label><br>
+        <textarea rows="5" cols="40" required></textarea>
+        <br><br>
+
+        <input type="checkbox" required>
+        I have verified this is not a duplicate.
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</center>
+
+</body>
+</html>

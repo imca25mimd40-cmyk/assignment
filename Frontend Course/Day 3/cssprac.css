@@ -1,0 +1,33 @@
+/* 1. Universal Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #333333;
+    padding: 20px;
+}
+
+/* 3. Style h1 and h2 */
+h1 {
+    font-size: 2.5rem;
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+/* 4. Style Paragraphs */
+p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
