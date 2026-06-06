@@ -1,0 +1,18 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.btn-grp{
+    display: flex;
+    gap: 0.5rem;
+}
